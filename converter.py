@@ -5,7 +5,7 @@ unwanted_letters = ["ş", "ı", "ğ", "ü", "ö", "ç",
 wanted_letters = ["s", "i", "g", "u", "o", "c",
                   "I", "S", "U", "O", "G", "C"]
 
-sentence = input("Write what do you want : ")
+sentence = input("Write something : ")
 
 def changeLetters(sentence):
     letters = [x for x in sentence]
